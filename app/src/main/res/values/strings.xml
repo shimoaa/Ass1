@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ass1</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="register">Register</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="name">Name :</string>
+    <string name="date">Date of birth</string>
+</resources>

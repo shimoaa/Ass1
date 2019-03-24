@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/original"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ass" />
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="7dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@+id/firstName"
+        android:hint="@string/last_name"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="7dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstName"
+        android:layout_margin="65dp"
+        android:hint="@string/date"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:drawablePadding="7dp"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:background="@color/button"
+       />
+
+
+</RelativeLayout>
